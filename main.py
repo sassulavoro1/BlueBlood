@@ -39,9 +39,15 @@ from kivymd.uix.gridlayout import MDGridLayout
 from kivymd.uix.label import MDLabel
 from kivymd.uix.scrollview import MDScrollView
 from kivymd.uix.screen import MDScreen
-from kivymd.uix.screenmanager import MDScreenManager
+try:
+    from kivymd.uix.screenmanager import MDScreenManager
+except Exception:
+    from kivy.uix.screenmanager import ScreenManager as MDScreenManager
 from kivymd.uix.textfield import MDTextField
-from kivymd.uix.toolbar import MDTopAppBar
+try:
+    from kivymd.uix.toolbar import MDTopAppBar
+except Exception:
+    from kivymd.uix.toolbar import MDToolbar as MDTopAppBar
 from kivy.graphics import Color, Line
 from kivy.uix.image import Image
 from kivy.uix.widget import Widget
