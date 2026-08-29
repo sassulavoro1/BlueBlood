@@ -4,7 +4,7 @@ package.name = blueblood
 package.domain = org.blueblood
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,txt,csv
-version = 1.1
+version = 1.2
 requirements = python3==3.10.12,cython==0.29.36,kivy==2.2.1,kivymd==1.1.1,plyer,requests
 orientation = portrait
 fullscreen = 0
