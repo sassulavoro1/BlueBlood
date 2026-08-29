@@ -5,7 +5,8 @@ package.domain = org.blueblood
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,txt,csv
 version = 1.0
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,numpy==1.26.4,pandas==2.2.2,yfinance,plyer,requests,urllib3,certifiorientation = portrait
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,numpy==1.26.4,pandas==2.2.2,yfinance,plyer,requests,urllib3,certifi
+orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET,VIBRATE
 android.api = 33
