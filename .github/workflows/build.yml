@@ -16,7 +16,7 @@ jobs:
       - name: Install packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y git zip unzip openjdk-17-jdk autoconf automake libtool pkg-config zlib1g-dev libncurses5-dev cmake libffi-dev libssl-dev gettext
+          sudo apt-get install -y git zip unzip openjdk-17-jdk autoconf automake libtool pkg-config zlib1g-dev libncurses5-dev cmake libffi-dev libssl-dev gettext libgl1-mesa-dev libgles2-mesa-dev
           python -m pip install -U pip
           pip install "cython==0.29.36" git+https://github.com/kivy/buildozer.git@master
       - name: Build
